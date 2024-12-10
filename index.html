@@ -65,12 +65,14 @@
             --secondary-color: #FFD700;
             --accent-color1: #00BFFF;
             --accent-color2: #FF6347;
-            --light-bg: #dfdfdf;
+            --headr--: #dbd7d7;
+            --head-bg--: #e0e0e0;
+            --light-bg: #c5bfbf;
             --white: #cfc9c9;
             --dark-text: #2D2D2D;
             --medium-text: #555555;
-            --fooder--: #dddddd;
-            --border-color: #dbdbdb;
+            --fooder--: #9c9b9b;
+            --border-color: #c0b7b7;
             --transition-speed: 0.3s;
         }
 
@@ -118,7 +120,7 @@
             align-items: center;
             padding: 1rem 3%;
             border-bottom: 1px solid var(--border-color);
-            background: var(--white);
+            background: var(--headr--);
             position: sticky;
             top: 0;
             z-index: 1000;
@@ -184,7 +186,7 @@
             align-items: flex-start;
             justify-content: center;
             padding: 8rem 3%;
-            background: var(--light-bg);
+            background: var(--head-bg--);
             gap: 1.5rem;
             overflow: hidden;
             min-height: 100vh;
@@ -811,9 +813,9 @@
             <!-- Комментарий: Здесь можно реализовать реальную фильтрацию через JS. -->
             <select id="attraction-filter">
                 <option value="all">Все</option>
-                <option value="natural">Природные</option>
-                <option value="cultural">Культурные</option>
-                <option value="historical">Исторические</option>
+                <option value="natural">Кафе</option>
+                <option value="cultural">Рестораны</option>
+                <option value="historical">Фаст-фуд</option>
             </select>
         </div>
 
